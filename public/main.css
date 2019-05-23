@@ -1,0 +1,39 @@
+body {
+    font-family: open-sans, sans-serif;
+  }
+
+.navbar {
+background-color: #fff;
+}
+
+a {
+    color: #6c63ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:focus,
+a:hover,
+a:active {
+    color: #6c63ff;
+    text-decoration: underline;
+}
+
+.border-shadow {
+    box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.screen {
+    box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.logos img {
+    opacity: 0.4;
+    filter: grayscale(100%);
+    transition: opacity ease-in-out 0.15s;
+}
+
+.logos img:hover {
+    filter: grayscale(0);
+    opacity: 1;
+}

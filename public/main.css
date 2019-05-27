@@ -54,3 +54,10 @@ ul {
     filter: grayscale(0);
     opacity: 1;
 }
+
+.map {
+    background-image: url(/svg/background-map.svg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

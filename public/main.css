@@ -19,6 +19,13 @@ a:active {
     text-decoration: underline;
 }
 
+.separator {
+    height: 0.3rem;
+    width: 6rem;
+    background: #28a745;
+    border-radius: 1rem;
+}
+
 .border-shadow {
     box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.1);
 }

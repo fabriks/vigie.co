@@ -1,9 +1,10 @@
+/* <--------------- Common ---------------> */
 body {
     font-family: open-sans, sans-serif;
   }
 
 .navbar {
-background-color: #fff;
+    background-color: #fff;
 }
 
 a {
@@ -32,7 +33,7 @@ ul {
 .separator {
     height: 0.3rem;
     width: 6rem;
-    background: #28a745;
+    background: #6c63ff;
     border-radius: 1rem;
 }
 
@@ -60,4 +61,31 @@ ul {
     height: 500px;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+
+/* <--------------- Pricing ---------------> */
+.pricing-card {
+    background-color: #fff;
+    padding: 1rem;
+    transition: box-shadow .25s ease-out,color .25s ease-out;
+    box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card .separator {
+    margin: auto;
+}
+
+.pricing-card:focus,
+.pricing-card:hover,
+.pricing-card:active {
+    box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.5);
+}
+
+.pricing-card li {
+    display: flex;
+}
+
+.pricing-card strong {
+    color: #6c63ff;
 }

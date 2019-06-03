@@ -81,27 +81,27 @@ ul {
 
 
 /* <--------------- Pricing ---------------> */
-.pricing-card {
+.card {
     background-color: #fff;
     padding: 1rem;
     transition: box-shadow .25s ease-out,color .25s ease-out;
     box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.1);
 }
 
-.pricing-card .separator {
+.card .separator {
     margin: auto;
 }
 
-.pricing-card:focus,
-.pricing-card:hover,
-.pricing-card:active {
+.card:focus,
+.card:hover,
+.card:active {
     box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.5);
 }
 
-.pricing-card li {
+.card li {
     display: flex;
 }
 
-.pricing-card strong {
+.card strong {
     color: #6c63ff;
 }
